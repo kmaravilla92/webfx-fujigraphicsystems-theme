@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6mwiw1');
+  src:  url('fonts/icomoon.eot?6mwiw1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6mwiw1') format('truetype'),
+    url('fonts/icomoon.woff?6mwiw1') format('woff'),
+    url('fonts/icomoon.svg?6mwiw1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-dropdown-circle:before {
+  content: "\e900";
+}
+.icon-arrow-dropleft-circle:before {
+  content: "\e901";
+}
+.icon-arrow-dropright-circle:before {
+  content: "\e902";
+}
+.icon-arrow-dropup-circle:before {
+  content: "\e903";
+}
+.icon-chevron-down:before {
+  content: "\e904";
+}
+.icon-chevron-left:before {
+  content: "\e905";
+}
+.icon-chevron-right:before {
+  content: "\e906";
+}
+.icon-chevron-up:before {
+  content: "\e907";
+}
+.icon-close:before {
+  content: "\e908";
+}
+.icon-close-circle:before {
+  content: "\e909";
+}
+.icon-facebook:before {
+  content: "\e90a";
+}
+.icon-instagram:before {
+  content: "\e90b";
+}
+.icon-linkedin:before {
+  content: "\e90c";
+}
+.icon-long-arrow-alt-down:before {
+  content: "\e90d";
+}
+.icon-long-arrow-alt-left:before {
+  content: "\e90e";
+}
+.icon-long-arrow-alt-right:before {
+  content: "\e90f";
+}
+.icon-long-arrow-alt-up:before {
+  content: "\e910";
+}
+.icon-magnify:before {
+  content: "\e911";
+}
+.icon-mail:before {
+  content: "\e912";
+}
+.icon-menu:before {
+  content: "\e913";
+}
+.icon-minus:before {
+  content: "\e914";
+}
+.icon-pin:before {
+  content: "\e915";
+}
+.icon-play-circle:before {
+  content: "\e916";
+}
+.icon-plus:before {
+  content: "\e917";
+}
+.icon-telephone:before {
+  content: "\e918";
+}
+.icon-tick:before {
+  content: "\e919";
+}
+.icon-twitter:before {
+  content: "\e91a";
+}
+.icon-youtube:before {
+  content: "\e91b";
+}

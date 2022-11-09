@@ -1,0 +1,247 @@
+/**
+ * Add styling for 404 page here
+ */
+ 
+ .imgbtns-404 {
+    padding: 60px 0 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.links-404 {
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.imgbtns-404 img {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.image-lead__wrapper {
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+h3.lead-title {
+    position: relative;
+    top: 82%;
+    text-align: center;
+    transform: translate(0, -15%);
+    color: #fff;
+    border-radius: 0;
+    display: block;
+    margin: 0 15px;
+}
+
+.lead-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.lead-item a {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.lead-title span {
+    font-size: 0;
+    transition: .4s;
+    display: block;
+    height: 0;
+}
+
+.lead-item a:hover span {
+    font-size: 12px;
+    transition: .4s;
+    height: auto;
+    padding-bottom: 150px;
+    padding-top: 5px;
+}
+
+.lead-item a:hover span:after{
+    font-size: 12px;
+}
+
+.lead-title span:after{
+    content: "\e90f";
+    font-family: 'icomoon';
+    margin-left: 5px;
+    font-size: 0;
+    top: 2px;
+    position: relative;
+    transition: margin-left .4s ease-in-out;
+}
+
+.search-404 label {
+    display: none;
+}
+
+.search-404 form {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.search-404 form input {
+    border-radius: 100px;
+}
+
+.search-404 form .search-btn {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.search-404 form .search-btn {
+    padding: 10px 35px;
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Clarimo UD PE';
+    border: none;
+    text-align: center;
+    font-weight: normal;
+    background: #20348C;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 0 100px 100px 0;
+    height: 50px;
+}
+
+.search-404 form .search-btn:hover {
+    border: none;
+    background: #343432;
+    color: #ffffff;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+.mobile-view__lead {
+    display: block;
+}
+
+.mobile-view__lead img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+
+.mobile-view__lead a {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-view__lead h3 {
+    margin-left: 15px;
+    font-family: 'Clarimo UD PE';
+    color: #20348C;
+    font-size: 18px;
+}
+
+.search-404 form .mobile-hview {
+    display: none;
+}
+
+.mobile-dview {
+    display: block;
+}
+
+.search-404 form .search-column.mobile-dview {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 0px !important;
+}
+
+.search-404 form .search-column button {
+    border-radius: 0;
+}
+
+@media( min-width:768px ) {
+    .search-404 form .mobile-hview,
+    .tablet-desktop {
+        display: block;
+    }
+    .mobile-view__lead,
+    .mobile-dview {
+        display: none;
+    }
+    .search-404 form .search-btn {
+        height: 62px;
+    }
+}
+
+@media( min-width:1200px ) {
+    .imgbtns-404 {
+        padding: 120px 0 60px;
+    }
+
+}
+
+@media( max-width:1024px ) {
+    h3.lead-title {
+        top: 85%;
+    }
+}
+
+@media( max-width:767px ) {
+    .lead-item {
+        margin-bottom: 0;
+    }
+}
+
+.image-buttons-item > a:hover .image-buttons-overlay {
+    height: 78px;
+    padding: 22px 20px 26px;
+}
+
+.image-buttons-arrow {
+    top: -30px;
+    left: 50%;
+    right: unset;
+    transform: translate(-50%,0);
+    background: #ffffff;
+    width: 58px;
+    text-align: center;
+    height: 58px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.image-buttons-item > a:hover .image-buttons-overlay {
+    background-color: #fff;
+}
+
+@media( min-width:1025px ) {
+    .image-buttons-item > a:hover .image-buttons-arrow {
+        top: -30px;
+        padding: 10px;
+        background: transparent;
+        color: #20348C;
+    }
+    .image-buttons-item > a:hover .image-buttons-arrow span {
+        transform: rotate(90deg);
+        top: 18px;
+    }
+}
+
+.search-404 form .search-column.mobile-dview button {
+    border-radius: 100px;
+    padding: 0 15px;
+}

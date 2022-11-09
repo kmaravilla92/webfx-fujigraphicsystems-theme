@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-Bold.eot');
+    src: url('ClarimoUDPE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Bold.woff2') format('woff2'),
+        url('ClarimoUDPE-Bold.woff') format('woff'),
+        url('ClarimoUDPE-Bold.ttf') format('truetype'),
+        url('ClarimoUDPE-Bold.svg#ClarimoUDPE-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-DemiBold.eot');
+    src: url('ClarimoUDPE-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-DemiBold.woff2') format('woff2'),
+        url('ClarimoUDPE-DemiBold.woff') format('woff'),
+        url('ClarimoUDPE-DemiBold.ttf') format('truetype'),
+        url('ClarimoUDPE-DemiBold.svg#ClarimoUDPE-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-BoldItalic.eot');
+    src: url('ClarimoUDPE-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-BoldItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-BoldItalic.woff') format('woff'),
+        url('ClarimoUDPE-BoldItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-BoldItalic.svg#ClarimoUDPE-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-DemiBoldItalic.eot');
+    src: url('ClarimoUDPE-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-DemiBoldItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-DemiBoldItalic.woff') format('woff'),
+        url('ClarimoUDPE-DemiBoldItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-DemiBoldItalic.svg#ClarimoUDPE-DemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-ExtraLightItalic.eot');
+    src: url('ClarimoUDPE-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-ExtraLightItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-ExtraLightItalic.woff') format('woff'),
+        url('ClarimoUDPE-ExtraLightItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-ExtraLightItalic.svg#ClarimoUDPE-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-ExtraLight.eot');
+    src: url('ClarimoUDPE-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-ExtraLight.woff2') format('woff2'),
+        url('ClarimoUDPE-ExtraLight.woff') format('woff'),
+        url('ClarimoUDPE-ExtraLight.ttf') format('truetype'),
+        url('ClarimoUDPE-ExtraLight.svg#ClarimoUDPE-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-Heavy.eot');
+    src: url('ClarimoUDPE-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Heavy.woff2') format('woff2'),
+        url('ClarimoUDPE-Heavy.woff') format('woff'),
+        url('ClarimoUDPE-Heavy.ttf') format('truetype'),
+        url('ClarimoUDPE-Heavy.svg#ClarimoUDPE-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-Light.eot');
+    src: url('ClarimoUDPE-Light.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Light.woff2') format('woff2'),
+        url('ClarimoUDPE-Light.woff') format('woff'),
+        url('ClarimoUDPE-Light.ttf') format('truetype'),
+        url('ClarimoUDPE-Light.svg#ClarimoUDPE-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-HeavyItalic.eot');
+    src: url('ClarimoUDPE-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-HeavyItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-HeavyItalic.woff') format('woff'),
+        url('ClarimoUDPE-HeavyItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-HeavyItalic.svg#ClarimoUDPE-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-LightItalic.eot');
+    src: url('ClarimoUDPE-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-LightItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-LightItalic.woff') format('woff'),
+        url('ClarimoUDPE-LightItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-LightItalic.svg#ClarimoUDPE-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-Medium.eot');
+    src: url('ClarimoUDPE-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Medium.woff2') format('woff2'),
+        url('ClarimoUDPE-Medium.woff') format('woff'),
+        url('ClarimoUDPE-Medium.ttf') format('truetype'),
+        url('ClarimoUDPE-Medium.svg#ClarimoUDPE-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-MediumItalic.eot');
+    src: url('ClarimoUDPE-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-MediumItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-MediumItalic.woff') format('woff'),
+        url('ClarimoUDPE-MediumItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-MediumItalic.svg#ClarimoUDPE-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-Regular.eot');
+    src: url('ClarimoUDPE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Regular.woff2') format('woff2'),
+        url('ClarimoUDPE-Regular.woff') format('woff'),
+        url('ClarimoUDPE-Regular.ttf') format('truetype'),
+        url('ClarimoUDPE-Regular.svg#ClarimoUDPE-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: url('ClarimoUDPE-RegularItalic.eot');
+    src: url('ClarimoUDPE-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-RegularItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-RegularItalic.woff') format('woff'),
+        url('ClarimoUDPE-RegularItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-RegularItalic.svg#ClarimoUDPE-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE Ultra';
+    src: url('ClarimoUDPE-Ultra.eot');
+    src: url('ClarimoUDPE-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-Ultra.woff2') format('woff2'),
+        url('ClarimoUDPE-Ultra.woff') format('woff'),
+        url('ClarimoUDPE-Ultra.ttf') format('truetype'),
+        url('ClarimoUDPE-Ultra.svg#ClarimoUDPE-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clarimo UD PE Ultra';
+    src: url('ClarimoUDPE-UltraItalic.eot');
+    src: url('ClarimoUDPE-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarimoUDPE-UltraItalic.woff2') format('woff2'),
+        url('ClarimoUDPE-UltraItalic.woff') format('woff'),
+        url('ClarimoUDPE-UltraItalic.ttf') format('truetype'),
+        url('ClarimoUDPE-UltraItalic.svg#ClarimoUDPE-UltraItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

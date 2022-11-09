@@ -1,0 +1,48 @@
+.attention-block__container{
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+	padding: 30px 17px;
+	border-radius: 10px;
+}
+
+.attention-block__container::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 6px;
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(0,177,232);
+    background: -moz-linear-gradient(90deg, rgba(0,177,232,1) 0%, rgba(0,170,84,1) 28%, rgba(234,219,53,1) 50%, rgba(239,38,62,1) 76%, rgba(233,6,132,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,177,232,1) 0%, rgba(0,170,84,1) 28%, rgba(234,219,53,1) 50%, rgba(239,38,62,1) 76%, rgba(233,6,132,1) 100%);
+    background: linear-gradient(90deg, rgba(0,177,232,1) 0%, rgba(0,170,84,1) 28%, rgba(234,219,53,1) 50%, rgba(239,38,62,1) 76%, rgba(233,6,132,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b1e8",endColorstr="#e90684",GradientType=1);
+}
+
+.wysiwyg-editor.gray-bg + .attention-block.gray-bg {
+	padding-top: 0;
+}
+
+@media(min-width: 768px){
+	.attention-block__container{
+		padding: 50px ;
+	}
+}
+
+@media(min-width: 1200px){
+	.attention-block__container{
+		padding: 100px ;
+	}
+
+	.attention-block__text{
+		max-width: 875px;
+		margin: auto;
+	}
+
+	.attention-block__text p + a {
+		margin-top: 10px;
+	}
+}

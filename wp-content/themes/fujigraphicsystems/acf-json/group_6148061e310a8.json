@@ -1,0 +1,65 @@
+{
+    "key": "group_6148061e310a8",
+    "title": "[Block] Innerpage - Full Width CTA",
+    "fields": [
+        {
+            "key": "field_614806219df9c",
+            "label": "Full Width CTA Content",
+            "name": "full_width_cta_content",
+            "type": "wysiwyg",
+            "instructions": "This block will have a blue patterned background and a rainbow bottom border",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_61776a5a7501e",
+            "label": "Disable Border",
+            "name": "disable_border",
+            "type": "button_group",
+            "instructions": "Enable or Disable rainbow border at the bottom section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "disable": "Disable",
+                "enable": "Enable"
+            },
+            "allow_null": 0,
+            "default_value": "enable",
+            "layout": "horizontal",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/full-width-cta-single"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1635216048
+}

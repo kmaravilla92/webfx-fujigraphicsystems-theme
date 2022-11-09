@@ -1,0 +1,132 @@
+.cta-half-and-half {
+    position: relative;
+}
+.cta-half-and-half h3{
+    font-size: 24px;
+    line-height: 1.19em;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+
+.cta-half-blue {
+    background: #20348C;
+}
+
+.cta-half-dark {
+    background: #353535;
+}
+
+.cta-half {
+    color: #ffffff;
+    padding: 52px 28px;
+}
+
+.cta-half .btn {
+    font-weight: normal;
+}
+
+.cta-half-blue .btn-tertiary {
+    color: #20348C;
+}
+
+.cta-half-dark .btn-tertiary {
+    color: #353535;
+}
+
+.cta-half-blue .btn-tertiary:hover,
+.cta-half-dark .btn-tertiary:hover {
+    color: #009CCC;
+}
+
+.cta-half-content {
+    position: relative;
+    z-index: 9;
+    max-width: 575px;
+}
+
+.grid-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grid-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    font-family: 'object-fit: cover;';
+}
+
+@media (min-width: 768px) {
+    .cta-half-and-half h3{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .cta-half {
+        width: 50%;
+        padding: 72px 30px 120px;
+    }
+
+    .cta-half-and-half {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cta-half-content {
+        height: 100%;
+    }
+
+    .cta-half .btn {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    .cta-half .btn {
+        bottom: auto;
+    }
+}
+
+@media(min-width: 1200px){
+    .cta-half-and-half h3{
+        font-size: 42px;
+        padding-bottom: 25px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .cta-half-blue .cta-half-content {
+        width: 100%;
+        margin: 0 0 0 auto;
+    }
+
+    .cta-half-dark .cta-half-content {
+        width: 100%;
+        margin: 0 auto 0 0;
+    }
+
+    .cta-half {
+        padding: 132px 0 198px;
+    }
+
+    .cta-half.cta-half-blue {
+        padding-right: 160px;
+        padding-left: 70px;
+    }
+
+    .cta-half.cta-half-dark {
+        padding-right: 70px;
+        padding-left: 160px;
+    }
+
+    .cta-half .btn {
+        bottom: -70px;
+        position: absolute;
+    }
+}

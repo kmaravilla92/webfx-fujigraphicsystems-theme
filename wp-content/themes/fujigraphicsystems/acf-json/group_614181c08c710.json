@@ -1,0 +1,60 @@
+{
+    "key": "group_614181c08c710",
+    "title": "[Block] Innerpage - Wysiwyg Gray & Angle",
+    "fields": [
+        {
+            "key": "field_61700149b97ca",
+            "label": "Wysiwyg Gray & Angle",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Note: Please don't use this section above or below a None angled gray Wysiwyg Section.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_614181cd94da0",
+            "label": "Content",
+            "name": "content",
+            "type": "wysiwyg",
+            "instructions": "This block has a light gray background and angle both top and bottom.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/wysiwyg-light-gray-angle"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1635162788
+}

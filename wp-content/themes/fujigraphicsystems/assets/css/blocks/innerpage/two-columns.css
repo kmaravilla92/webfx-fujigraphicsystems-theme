@@ -1,0 +1,124 @@
+.two-column__img {
+	height: 200px;
+	width: 100%;
+}
+
+.two-column__img img {
+	height: 100%;
+	width: 100%;
+	object-position: left;
+}
+
+.two-column__img img.cover {
+	object-fit: cover;
+
+}
+
+.two-column__img img.contain {
+	object-fit: contain;
+}
+
+.two-column__text {
+	padding: 28px;
+	margin-right: 28px;
+	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+	border-radius: 0 5px 5px 0;
+	margin-top: -28px;
+	position: relative;
+	background: #fff;
+}
+
+.two-column_container + .two-column_container {
+	margin-top: 28px;
+}
+
+.two-column_container:nth-child(2) .two-column__text{
+	margin-left: 28px;
+	margin-right: 0;
+	border-radius:  5px 0 0 5px;
+}
+
+
+@media(max-width: 767px){
+	section.two-column {padding-top: 0}
+	.two-column .container-fluid {padding: 0;}
+}
+
+@media(min-width: 768px){
+	.two-column__img {
+		border-radius: 5px;
+		height: 450px;
+	}
+
+	.two-column__img img {border-radius: 5px}
+
+	.two-column__text {
+		margin-top: -100px;
+		padding: 45px;
+		border-top-left-radius: 0px;
+		width: 91.66666667%;
+	}
+
+	.two-column_container:nth-child(2) .two-column__text{
+		left: 8.33333333%;
+		margin-left: 0px;
+	}
+
+	.two-column_container + .two-column_container {
+		margin-top: 60px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 0px;
+	}
+
+}
+
+@media(min-width: 1200px){
+	.two-column__img {
+		height: 350px;
+	}
+
+	.two-column_container .two-column__text {
+		margin-right: 25px;
+		padding: 75px 55px;
+	}
+
+	.two-column_container:nth-child(2) .two-column__text{
+		left: 0%;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 5px;
+	}
+
+	.two-column__text h2 {
+		font-weight: 600;
+		font-size: 34px;
+	}
+
+	.two-column_container {
+		margin-top: 100px;
+	}
+
+	.two-column_container:first-child{
+		padding-right: 25px;
+	}
+
+	.two-column_container:nth-child(2) {
+		padding-left: 25px;
+	}
+
+	.two-column_container + .two-column_container {
+		margin-top: 0px;
+	}
+}
+
+@media(min-width: 1500px){
+	.two-column__img {
+		height: 575px;
+	}
+	
+	.two-column__text {
+		width: 85%;
+	}
+}
+
+
+

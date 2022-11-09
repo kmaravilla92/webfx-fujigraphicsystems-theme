@@ -1,0 +1,59 @@
+.wysiwyg-editor {
+
+	padding: 40px 0;
+
+	position: relative;
+
+    
+
+}
+
+
+@media(min-width: 768px){
+
+	.wysiwyg-editor {
+
+		padding: 55px 0;
+
+	    
+
+	}
+
+}
+
+
+
+@media(max-width: 1025px){
+
+	.wysiwyg-editor img {
+
+		max-width: 100%;
+
+		width: 100%;
+
+	}
+
+}
+
+
+
+@media(min-width: 1025px){
+
+	.wysiwyg-editor {
+
+		padding: 100px 0;
+
+	    
+
+	}
+
+	.wysiwyg-editor .btn {
+
+		margin-top: 25px;
+
+	    
+
+	}
+
+}
+

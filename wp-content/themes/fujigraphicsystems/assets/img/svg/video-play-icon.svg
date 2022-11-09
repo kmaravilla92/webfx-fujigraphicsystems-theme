@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-video_1">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="video_1" data-name="video – 1" clip-path="url(#clip-video_1)">
+    <path id="Path_298" data-name="Path 298" d="M42.825,7A9.954,9.954,0,0,1,60.084,7l40.031,69.619A9.954,9.954,0,0,1,91.485,91.54H11.423A9.954,9.954,0,0,1,2.794,76.624Z" transform="translate(95.77 -1.454) rotate(90)" fill="#fff"/>
+  </g>
+</svg>
