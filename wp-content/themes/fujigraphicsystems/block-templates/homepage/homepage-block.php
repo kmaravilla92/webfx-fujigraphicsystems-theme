@@ -9,12 +9,19 @@
  */
 
 $template = [
-	['acf/home-masthead-slider'], // TODO remove if not using slider. Otherwise, delete this comment.
+    // Original Home page related blocks
+	['acf/home-masthead-slider'],
     ['acf/homepage-half-image-half-text'],
     ['acf/video-section'],
     ['acf/homepage-testimonials'],
     ['acf/cta-half-and-half'],
-    // TODO add additional blocks here and delete this comment
+    
+    // New Inner page related blocks
+    ['acf/video-section'],
+    ['acf/wysiwyg'],
+    ['acf/case-study-section'],
+    ['acf/attention-block'],
+    ['acf/resources-block'],
 ];
 
 ?>

@@ -588,6 +588,29 @@ fx_register_block(
     ]
 );
 
+fx_register_block(
+    [
+        'name'          => 'resources-block',
+        'title'         => 'Resources Block',
+        'template'      => 'innerpage/resources-block.php',
+        'css'           => 'innerpage/resources-block.css',
+        'css_deps'      => ['fx_fancybox'],
+        'js_deps'       => ['fx_fancybox'],
+        'category'      => 'fx-innerpage-blocks',
+        'example'       => [
+            'attributes'    => [
+                'mode'  => 'preview',
+                'data'  => [ 
+                    'preview_banner'    => true, 
+                    'template_folder'   => 'innerpage',
+                    'image_type'        => 'attention-block.jpg'
+                ]
+            ]
+        ],
+        'post_types'    => ['page','post'],
+    ]
+);
+
 fx_add_block_category( 'FX Filter Blocks', 'fx-filter-blocks' );
 
 fx_register_block(

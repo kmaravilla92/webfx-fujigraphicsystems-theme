@@ -53,6 +53,15 @@ function fx_get_image_tag( $image, $classes = '', string $size = 'full', bool $s
     $atts = array_filter( $atts );
 
     // use WP's native function to generate image element
+    $src = wp_get_attachment_image_src( $image_id, $size );
+    if( $src ) {
+        $width = $src[1];
+        $height = $src[2];
+        if( $height > $width ) {
+            $atts['class'] .= ' orientation--portrait';
+        }
+    }
+    
     $tag = wp_get_attachment_image( $image_id, $size, false, $atts );
 
     return $tag;

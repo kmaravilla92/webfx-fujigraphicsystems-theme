@@ -7,16 +7,21 @@
      * 
      */
     do_action('fx_preview_block');
+
+    $categories     = get_field('case_study_category_filter');
+    $taxonomy_posts = fx_get_posts_case_study( $categories );
 ?>
 
 <section class="innerpage case-study-section <?php echo ( get_field('select_background') == 'white' ) ? 'white-bg': 'gray-bg'; ?>">
     <div class="container-fluid">
-        <?php 
-            echo get_field('headline') ? '<h2 class="hidden-lg">' . get_field('headline') . '</h2>' : ''; 
-        
-            $categories     = get_field('case_study_category_filter');
-            $taxonomy_posts = fx_get_posts_case_study( $categories );
-        ?>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <?php 
+                        echo get_field('headline') ? '<h2 class="hidden-lg">' . get_field('headline') . '</h2>' : '';
+                        echo get_field('text') ? get_field('text') : '';
+                    ?>
+                </div>
+            </div>
 
             <div class="cs-slider">
                 <?php 

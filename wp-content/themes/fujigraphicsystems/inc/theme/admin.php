@@ -257,12 +257,20 @@ function fx_restrict_homepage_blocks( $allowed_blocks, $context ) {
     // TODO update to homepage ID & remove this comment
     if( (int) get_option( 'page_on_front' ) === $context->post->ID ) {
         $allowed_blocks = array(
+            // Original Home page related blocks
             'acf/homepage-block',
             'acf/home-masthead-slider',
             'acf/homepage-half-image-half-text',
-            'acf/video-section',
             'acf/homepage-testimonials',
-            'acf/cta-half-and-half'
+            'acf/cta-half-and-half',
+
+            // New Inner page related blocks
+            'acf/video-section',
+            'acf/wysiwyg',
+            'acf/case-study-section',
+            'acf/video-section',
+            'acf/attention-block',
+            'acf/resources-block',
         );
     } else {
         // TODO add blocks that shouldn't be allowed outside of the homepage to $disallowed_blocks. Block name should be acf/{name}
